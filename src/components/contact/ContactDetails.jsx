@@ -3,7 +3,7 @@ import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 const contacts = [
 	{
 		id: 1,
-		name: 'Hay Sidi Moussa El Jadida',
+		name: 'Hay Essalam El Jadida',
 		icon: <FiMapPin />,
 	},
 	{
@@ -20,12 +20,16 @@ const contacts = [
 
 const ContactDetails = () => {
 	return (
-		<div className="w-full lg:w-1/2">
-			<div className="text-left max-w-xl px-6">
-				<h2 className="font-general-medium text-2xl text-primary-dark dark:text-primary-light mt-12 mb-8">
+		<div className="w-full container mx-auto ">
+			<div className="text-left px-6">
+				<h2 className="font-general-medium text-center text-2xl text-primary-dark dark:text-primary-light mt-12 mb-8">
 					Contact details
 				</h2>
-				<ul className="font-general-regular">
+				<ul className="font-general-regular" style={{
+					display: "flex",
+					gap: "1.5rem",
+					justifyContent: "center",
+				}}>
 					{contacts.map((contact) => (
 						<li className="flex " key={contact.id}>
 							<i className="text-2xl text-gray-500 dark:text-gray-400 mr-4">

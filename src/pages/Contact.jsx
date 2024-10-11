@@ -11,7 +11,7 @@ const Contact = () => {
 				duration: 0.5,
 				delay: 0.1,
 			}}
-			className="container mx-auto flex justify-start py-5 lg:py-10 lg:mt-10"
+			className="flex justify-start py-5 lg:py-10 bg-primary-light dark:bg-ternary-dark"
 		>
 			{/* <ContactForm /> */}
 			<ContactDetails />
