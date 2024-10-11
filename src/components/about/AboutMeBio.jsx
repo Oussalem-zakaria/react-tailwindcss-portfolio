@@ -1,4 +1,4 @@
-import profileImage from '../../images/profile.jpeg';
+import profileImage from '../../images/profile.jpg';
 import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
 
@@ -11,7 +11,9 @@ const AboutMeBio = () => {
 				<img src={profileImage} className="rounded-lg w-96" alt="" />
 			</div>
 
-			<div className="font-general-regular w-full sm:w-3/4 text-left">
+			<div className="font-general-regular w-full sm:w-3/4" style={{
+				textAlign: "justify"
+			}}>
 				{aboutMe.map((bio) => (
 					<p
 						className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"

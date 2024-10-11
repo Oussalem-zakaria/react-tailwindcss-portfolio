@@ -1,10 +1,10 @@
 // Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
+import Image1 from '../images/app-mob-1.png';
+import Image2 from '../images/app-mob-2.png';
+import Image3 from '../images/app-mob-3.png';
+import Image4 from '../images/web-project-3.png';
+import Image5 from '../images/web-project-2.png';
+import Image6 from '../images/web-project-1.png';
 // Import icons
 import {
 	FiFacebook,
@@ -58,7 +58,7 @@ export const singleProjectData = {
 			{
 				id: 4,
 				title: 'Phone',
-				details: '555 8888 888',
+				details: '0608766503',
 			},
 		],
 		ObjectivesHeading: 'Objective',

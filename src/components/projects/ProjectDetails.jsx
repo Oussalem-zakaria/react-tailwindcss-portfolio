@@ -1,0 +1,8 @@
+
+const ProjectDetails = (props) => {
+    return (
+        <>
+            
+        </>
+    )
+}
