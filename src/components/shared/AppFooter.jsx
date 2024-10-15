@@ -11,7 +11,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		url: 'https://www.https://zakariaoussalem.netlify.app//',
 	},
 	{
 		id: 2,
