@@ -36,7 +36,6 @@ import css from "../images/icons/css3.png";
 import symfony from "../images/icons/symfony.png";
 import react from "../images/icons/react.png";
 import springboot from "../images/icons/springboot.png";
-import database from "../images/icons/database.png";
 import reactnative from "../images/icons/reactnative.png";
 import firebase from "../images/icons/firebase.png";
 import redux from "../images/icons/redux.png";

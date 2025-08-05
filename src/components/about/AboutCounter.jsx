@@ -1,4 +1,3 @@
-import { useCountUp } from "react-countup";
 import css from "../../images/icons/css3.png";
 import symfony from "../../images/icons/symfony.png";
 import react from "../../images/icons/react.png";
